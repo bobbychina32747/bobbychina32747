@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 150" width="880" height="150" role="img" aria-label="数字速览：10 年 Minecraft、01–04 主活跃时段、M68 里程碑、[AI] 提交前缀">
+  <defs>
+    <style>
+      .mono { font-family: Consolas, "Cascadia Mono", "Courier New", monospace; }
+      .sans { font-family: "Segoe UI", -apple-system, "PingFang SC", "Microsoft YaHei", system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- 四张速览卡：自绘，零第三方统计服务（github-readme-stats 那类一律不引） -->
+  <g>
+    <rect x="15" y="16" width="202" height="118" rx="14" fill="#0d1219" stroke="#1f2733"/>
+    <rect x="37" y="42" width="24" height="3" rx="1.5" fill="#3fd07a"/>
+    <text class="mono" x="37" y="88" font-size="27" fill="#dfe8f0">10 年</text>
+    <text class="sans" x="37" y="114" font-size="12.5" fill="#7b8a9c">Minecraft 玩家 · PE 0.15 起</text>
+  </g>
+  <g>
+    <rect x="231" y="16" width="202" height="118" rx="14" fill="#0d1219" stroke="#1f2733"/>
+    <rect x="253" y="42" width="24" height="3" rx="1.5" fill="#5cc8ff"/>
+    <text class="mono" x="253" y="88" font-size="27" fill="#dfe8f0">01–04</text>
+    <text class="sans" x="253" y="114" font-size="12.5" fill="#7b8a9c">主活跃时段 · UTC+8 夜班</text>
+  </g>
+  <g>
+    <rect x="447" y="16" width="202" height="118" rx="14" fill="#0d1219" stroke="#1f2733"/>
+    <rect x="469" y="42" width="24" height="3" rx="1.5" fill="#e8c15a"/>
+    <text class="mono" x="469" y="88" font-size="27" fill="#dfe8f0">M68</text>
+    <text class="sans" x="469" y="114" font-size="12.5" fill="#7b8a9c">zombie-survival 里程碑</text>
+  </g>
+  <g>
+    <rect x="663" y="16" width="202" height="118" rx="14" fill="#0d1219" stroke="#1f2733"/>
+    <rect x="685" y="42" width="24" height="3" rx="1.5" fill="#e0573a"/>
+    <text class="mono" x="685" y="88" font-size="27" fill="#dfe8f0">[AI]</text>
+    <text class="sans" x="685" y="114" font-size="12.5" fill="#7b8a9c">提交前缀 · 分工可追溯</text>
+  </g>
+</svg>

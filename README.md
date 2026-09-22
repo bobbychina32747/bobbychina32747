@@ -2,13 +2,18 @@
   <img src="./assets/banner.svg" alt="Bobbychina — 独立开发者 · 10 年 Minecraft 玩家 · UTC+8 夜班" width="100%">
 </div>
 
-> **一句话**：把炒股游戏做成社区金融素养项目的独立开发者。
->
+### 学生 · 独立开发者 · 一个人写全栈
+
+> 一句话定位：**把炒股游戏做成社区金融素养项目的独立开发者**。
 > 白天写前端，凌晨写地图生成器 —— 白天写的代码和凌晨写的代码不是同一个人写的。
 
 **EN** — Student and solo full-stack developer in UTC+8. I build games, and the tools I want to use.
 Ten years of Minecraft (since PE 0.15). Most active between 01:00 and 04:00.
 **[Full English version ↓](#english)**
+
+<div align="center">
+  <img src="./assets/stats.svg" alt="10 年 Minecraft · 01–04 主活跃时段 · M68 里程碑 · [AI] 提交前缀" width="100%">
+</div>
 
 ---
 
@@ -21,6 +26,15 @@ Ten years of Minecraft (since PE 0.15). Most active between 01:00 and 04:00.
 | **dsh 工具链** · 自托管 DeepSeek Harness 插件 | 持续迭代 |
 | **社区设计项目** · 炒股游戏 → 金融素养教育 | 找导师 |
 | **自建托管** · 站点 + 云存档搬回自己的服务器 | 选型中 |
+
+### 多说两句「社区设计」· the community project
+
+这是我唯一一个**不是纯技术**的项目：把 StockGameOnlinePro 的模拟盘做成能进课堂的金融素养工具。
+
+- **想做成什么**：虚拟资金 + 真实行情 + 可复盘报告。学生亏得起，但亏完能看到自己为什么亏。
+- **服务谁**：青少年。具体是校内同学还是社区里的孩子，还在跟导师一起定。
+- **卡在哪**：学校没有经济老师，得从设计科或人文科找督导；目前基本单人推进，组队上限 3 人。
+- **为什么做**：炒股游戏谁都能写，但把它变成别人真的能用的教学工具，才算把技术用出去了。
 
 ---
 
@@ -105,15 +119,21 @@ Ten years of Minecraft (since PE 0.15). Most active between 01:00 and 04:00.
 ## English
 
 Student and solo full-stack developer in UTC+8. I build **games** and the **tools I want to use**.
+Ten years of Minecraft (since PE 0.15). One line: *an indie dev turning his stock-trading game into a community financial-literacy project.*
 
-**Right now**
+**Selected work**
 
-- **StockGameOnlinePro** — stock-trading simulator: matching engine + `NestJS/TypeORM` back end + `React/ECharts` front end + quant API. Also the vehicle for a community financial-literacy project.
-- **zombie-survival v4.0 "Embers"** — turn-based zombie survival on a 24×24 procedural map. Hardcore direction: *don't chase bigger numbers, chase the cost of a failed plan.*
-- **dsh toolchain** — a set of self-hosted DeepSeek Harness plugins (cost guard, wallet, calendar, perf mode).
-- **Self-hosting** — moving my site and its cloud-save back end onto my own server.
+- On this account: [StockGameOnlinePro](https://github.com/bobbychina32747/StockGameOnlinePro) — stock-trading simulator (matching engine, `NestJS/TypeORM`, `React/ECharts`, quant API) · [token-miser](https://github.com/bobbychina32747/token-miser) — "make the AI talk like it's spending its own money" · [dsh-peak-price-guard](https://github.com/bobbychina32747/dsh-peak-price-guard) — queues non-urgent API calls out of peak pricing.
+- On my AI account [@Bobbychina](https://github.com/Bobbychina): [zombie-survival](https://github.com/Bobbychina/zombie-survival) · [Bobbychina.github.io](https://github.com/Bobbychina/Bobbychina.github.io) (site + arcade) · [dsh-wallet](https://github.com/Bobbychina/dsh-wallet) · [dsh-calendar](https://github.com/Bobbychina/dsh-calendar) · [dsh-newline-enter](https://github.com/Bobbychina/dsh-newline-enter).
 
 **Stack** — `React 18 + Vite + TypeScript` · `NestJS 10 + TypeORM + SQLite` · `vitest + Playwright` · single-file HTML builds · GitHub Pages + Cloudflare Worker.
+
+**Aesthetic** — dark by default (`#0a0e14`, glassmorphism); cool colors for information, warm for mood; serif headings, sans body. Every badge on this page is hand-drawn SVG, and no third-party script gets loaded.
+
+*Site: <https://bobbychina.github.io/> · Arcade: <https://bobbychina.github.io/games/>*
+
+<details>
+<summary><b>More in English</b> — how I work, and how the AI account fits in</summary>
 
 **What I care about**
 
@@ -121,22 +141,17 @@ Student and solo full-stack developer in UTC+8. I build **games** and the **tool
 - **Spending should be observable** — I built a wallet panel to watch my own token bill.
 - **Evidence, not vibes** — unit tests + browser probes + screenshots, locally and again against production.
 
-**Selected work**
-
-- On this account: [StockGameOnlinePro](https://github.com/bobbychina32747/StockGameOnlinePro) · [token-miser](https://github.com/bobbychina32747/token-miser) ("make the AI talk like it's spending its own money") · [dsh-peak-price-guard](https://github.com/bobbychina32747/dsh-peak-price-guard) (queues non-urgent API calls out of peak pricing).
-- On my AI account: [zombie-survival](https://github.com/Bobbychina/zombie-survival) · [Bobbychina.github.io](https://github.com/Bobbychina/Bobbychina.github.io) · [dsh-wallet](https://github.com/Bobbychina/dsh-wallet) · [dsh-calendar](https://github.com/Bobbychina/dsh-calendar) · [dsh-newline-enter](https://github.com/Bobbychina/dsh-newline-enter).
-
 **Working with AI**
 
-- My AI collaborator has its own account — [@Bobbychina](https://github.com/Bobbychina) — and authors most of the code with an `[AI]` commit prefix.
-- I set goals, cut batches and hold the acceptance bar; it writes, runs probes, captures screenshots and ships.
+- My AI collaborator has its own account — [@Bobbychina](https://github.com/Bobbychina) — and authors most of the code under an `[AI]` commit prefix.
+- I set the goals, cut the batches and hold the acceptance bar; it writes, runs probes, captures screenshots and ships.
 - Nothing is done without the evidence set, and anything destructive goes through a human-confirmed code path.
 
-**Aesthetic** — dark by default (`#0a0e14`, glassmorphism); cool colors for information, warm for mood; serif headings, sans body.
+**How I ship** — audit before editing; roadmap and changelog live in the repo, not in chat; fix the root cause instead of loosening acceptance; two visual directions (A/B) before committing to one; and I play my own games and file the rough edges as bugs.
 
-**Zero third-party** — no third-party scripts, my own anonymous counter, and every badge on this page is hand-drawn SVG.
+**The Chinese version above is the primary one** and has the details.
 
-*Site: <https://bobbychina.github.io/> · Arcade: <https://bobbychina.github.io/games/>*
+</details>
 
 <details>
 <summary><b>彩蛋 · Easter egg</b></summary>
