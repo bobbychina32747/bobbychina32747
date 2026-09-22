@@ -79,18 +79,65 @@
 - 徽章、统计卡、配色板都是自己画的 SVG：能少一个外部请求就少一个。
 - 云后端自建（Cloudflare Worker 免费额度），主打的就是不受制于平台。
 
-<details>
-<summary><b>English</b> (short version)</summary>
+---
 
-I'm Bobbychina — a student and solo full-stack developer. Ten years of Minecraft (since PE 0.15) is where the voxel sandboxes, procedural maps and terrain generation come from. I build **games** and the **developer tools I want to use**, mostly in TypeScript: `React 18 + Vite` on the front end, `NestJS + TypeORM + SQLite` on the back end, `vitest + Playwright` for tests, and plain static single-file HTML whenever a dependency isn't worth it.
+## English
 
-Currently: *StockGameOnlinePro* (a stock-trading simulator with a matching engine and a quant API), *zombie-survival v4.0* (a turn-based zombie survival game shipped milestone by milestone), a self-hosted DeepSeek Harness plugin toolchain, and my [personal site + arcade](https://bobbychina.github.io/).
+I'm Bobbychina — a student and solo full-stack developer. Ten years of Minecraft (since PE 0.15) is where the voxel sandboxes, procedural maps and terrain generation come from. I build **games** and the **developer tools I want to use**.
 
-I also run a second account for my AI collaborator — [@Bobbychina](https://github.com/Bobbychina) — which authors most of the code under an `[AI]` commit prefix while I set the goals and hold the acceptance bar. **How I work:** audit before editing, keep the roadmap and changelog in the repo, and accept nothing as done without the full evidence set — unit tests, browser probes (local *and* live), screenshots, and an acceptance note. Performance beats looks: every effect must be switchable off in one click. Zero third-party scripts; badges and stat cards are drawn by hand.
+- **What I write**: TypeScript mostly — `React 18 + Vite` front end, `NestJS + TypeORM + SQLite` back end, `vitest + Playwright` for tests, and plain static single-file HTML whenever a dependency isn't worth it.
+- **Where I'm active**: UTC+8, mostly **01:00–04:00**. The code I write at night and the code I write during the day are not written by the same person.
+- **What I care about**: performance before looks (every effect must be one click away from off), observable spending (I built a wallet panel to watch my own token bill), and real evidence (unit tests + browser probes + screenshots, run locally and again against production).
+- **Site**: <https://bobbychina.github.io/> · arcade <https://bobbychina.github.io/games/>
 
-Time zone UTC+8, most active around 01:00–04:00.
+### Now
 
-</details>
+| Working on | Status |
+|---|---|
+| **StockGameOnlinePro** — stock-trading simulator: matching engine + `NestJS/TypeORM` back end + `React/ECharts` front end + quant API, CN/HK/US markets, bot players | Phase G (i18n + bot players) |
+| **zombie-survival v4.0 "Embers"** — turn-based zombie survival on a 24×24 map with procedural regions and building interiors; the hardcore direction is *"don't chase bigger numbers, chase the cost of a failed plan"* | milestone M68 |
+| **dsh toolchain** — a whole set of self-hosted DeepSeek Harness plugins (cost guard / wallet / calendar / newline / perf mode) | ongoing |
+| **Community design project** — using my trading game to teach financial literacy to a real community | finding a supervisor |
+| **Self-hosting** — moving my site and its cloud-save back end off third-party platforms onto my own server | choosing |
+
+### Stack
+
+| Layer | What |
+|---|---|
+| Front end | React 18 · Vite · TypeScript · ECharts |
+| Back end | NestJS 10 · TypeORM · SQLite |
+| Testing | vitest · Playwright · hand-written browser probes (run locally *and* live) |
+| Games | single-file HTML builds · Canvas · procedural maps |
+| Tooling | Node ESM scripts · PowerShell · pnpm profiles |
+| Hosting | GitHub Pages · Cloudflare Worker (own anonymous counter, no cookies, no IPs) |
+
+### Selected work
+
+**On this account** — [StockGameOnlinePro](https://github.com/bobbychina32747/StockGameOnlinePro) (stock-trading simulator: market engine, matching, quant API) · [token-miser](https://github.com/bobbychina32747/token-miser) ("make the AI talk like it's spending its own money") · [dsh-peak-price-guard](https://github.com/bobbychina32747/dsh-peak-price-guard) (queues non-urgent DeepSeek API calls out of peak-pricing hours).
+
+**On my AI account** — [zombie-survival](https://github.com/Bobbychina/zombie-survival) · [Bobbychina.github.io](https://github.com/Bobbychina/Bobbychina.github.io) (personal site + arcade, zero third-party scripts, its own i18n engine and self-check probes) · [dsh-wallet](https://github.com/Bobbychina/dsh-wallet) · [dsh-calendar](https://github.com/Bobbychina/dsh-calendar) · [dsh-newline-enter](https://github.com/Bobbychina/dsh-newline-enter).
+
+### Working with AI
+
+I gave my AI collaborator its own account: [**@Bobbychina**](https://github.com/Bobbychina) (`[AI] Bobbychina32747`), which authors most of the code here and on the site. I set the goals, cut the batches and hold the acceptance bar; it writes, runs probes, captures screenshots and ships.
+
+- Everything it authors carries an `[AI]` commit prefix, so authorship is never ambiguous.
+- Nothing counts as done without the evidence set: unit tests → browser probes (local *and* live) → screenshots → an acceptance note.
+- Anything destructive (delete / overwrite / install) goes through a human-confirmed code path; the AI doesn't get to decide that alone.
+
+### How I ship
+
+Audit before editing. Roadmap and changelog live in the repo — todos don't drift in chat. No fake-green: fix the root cause instead of loosening acceptance, and log the tech debt out loud. Two visual directions (A/B) before committing to one. And I play my own games and file the rough edges as bugs.
+
+### Aesthetic
+
+Dark is the default, not an option: deep blue-black `#0a0e14` with glassmorphism. Cool colors carry information (sky cyan links, sapphire primary actions), warm colors carry mood (old gold, burnt orange). Serif headings, sans body. **Performance mode can switch every animation, blur and glow off — and the page still reads.**
+
+### Zero third-party
+
+No third-party scripts on the site; page counts come from my own Cloudflare Worker (anonymous, no cookies, no IPs). The badges, stat cards and palette above are hand-drawn SVG — one less external request every time.
+
+*Chinese is the primary version above; this English section mirrors it. Time zone UTC+8, most active around 01:00–04:00.*
 
 <details>
 <summary><b>彩蛋 · Easter egg</b></summary>
