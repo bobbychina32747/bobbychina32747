@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 132" width="880" height="132" role="img" aria-label="AI Agent 卡片：@Bobbychina（[AI] Bobbychina32747），我的 AI 协作者">
+  <defs>
+    <style>
+      .mono { font-family: Consolas, "Cascadia Mono", "Courier New", monospace; }
+      .sans { font-family: "Segoe UI", -apple-system, "PingFang SC", "Microsoft YaHei", system-ui, sans-serif; }
+      @media (prefers-reduced-motion: no-preference) {
+        .eye { animation: blink 3.4s steps(1, end) infinite; }
+      }
+      @keyframes blink { 0%, 92% { opacity: 1 } 93%, 100% { opacity: .25 } }
+    </style>
+  </defs>
+
+  <rect width="880" height="132" rx="14" fill="#0d1219"/>
+  <rect x="0.5" y="0.5" width="879" height="131" rx="14" fill="none" stroke="#1f2733"/>
+  <rect x="0.5" y="0.5" width="879" height="131" rx="14" fill="none" stroke="#5cc8ff" stroke-opacity="0.12"/>
+
+  <!-- 小机器人：天线金、眼睛绿，跟站点同一套色 -->
+  <rect x="28" y="34" width="64" height="64" rx="16" fill="#10151d" stroke="#2a3543"/>
+  <path d="M60 34v-12" stroke="#2a3543" stroke-width="2"/>
+  <circle cx="60" cy="18" r="4.5" fill="#e8c15a"/>
+  <circle class="eye" cx="48" cy="62" r="5" fill="#3fd07a"/>
+  <circle class="eye" cx="72" cy="62" r="5" fill="#3fd07a"/>
+  <path d="M52 80h16" stroke="#5cc8ff" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+
+  <text class="mono" x="112" y="60" font-size="20" fill="#dfe8f0">[AI] Bobbychina32747</text>
+  <text class="sans" x="112" y="88" font-size="14" fill="#7b8a9c">我的 AI 协作者：写代码 · 跑探针 · 截图存证 · 提交上线</text>
+
+  <text class="mono" x="852" y="60" font-size="14" fill="#5cc8ff" text-anchor="end">github.com/Bobbychina</text>
+  <text class="mono" x="852" y="88" font-size="13" fill="#7b8a9c" text-anchor="end">所有产出带 [AI] 提交前缀</text>
+</svg>
