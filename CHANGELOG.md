@@ -2,6 +2,14 @@
 
 本仓库（profile README）的对外更新记录。游戏与站点的里程碑见各自仓库的 `CHANGELOG.md`。
 
+## v1.0.1 — 2026-09-22
+
+- 头图重做：画布从 1200×340 改为 **880×460**（GitHub profile 页实际渲染列宽约 887px，等于 1:1 不再缩放），字号整体放大约 30%，标题 96px。
+- 头图布局：左侧姓名 + 中英标语，右侧新增「作息玻璃卡」（UTC+8 / 01:00–04:00 / most active），底部通栏终端卡（prompt → 输出同行显示）。
+- 英文从折叠块改为正文可见的 `## English` 全量对照（Now / Stack / Selected work / Working with AI / How I ship / Aesthetic / Zero third-party）。
+- 配色板与页脚改为 1000 宽画布，标签加英文（底 · bg、卡片 · card …），字号同步放大。
+- 修掉标题与终端卡重叠：本地无 Georgia 时回退字体更宽，标题右边界实测 605 < 卡片 628。
+
 ## v1.0.0 — 2026-09-22
 
 - 首版 profile README：`README.md` + 三张自绘 SVG（`assets/banner.svg` 头图、`assets/palette.svg` 配色板、`assets/footer.svg` 页脚）。

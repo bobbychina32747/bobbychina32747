@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" width="1000" height="360" role="img" aria-label="Bobbychina — 独立开发者 / 10 年 Minecraft 玩家 / UTC+8 夜班 · indie dev, minecraft since PE 0.15, UTC+8 night shift">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 460" width="880" height="460" role="img" aria-label="Bobbychina — 独立开发者 / 10 年 Minecraft 玩家 / UTC+8 夜班 · indie dev, minecraft since PE 0.15, UTC+8 night shift">
   <defs>
     <!-- 极光光晕：用径向渐变代替高斯模糊滤镜，省 GPU（本人性能优先的底线） -->
     <radialGradient id="glowBlue" cx="50%" cy="50%" r="50%">
@@ -42,64 +42,69 @@
     </style>
   </defs>
 
-  <rect width="1000" height="360" fill="#0a0e14"/>
-  <rect width="1000" height="360" fill="url(#grid)"/>
+  <rect width="880" height="460" fill="#0a0e14"/>
+  <rect width="880" height="460" fill="url(#grid)"/>
 
   <!-- 光晕层 -->
   <g class="drift">
-    <ellipse cx="200" cy="320" rx="380" ry="220" fill="url(#glowGreen)"/>
-    <ellipse cx="860" cy="30" rx="400" ry="230" fill="url(#glowBlue)"/>
-    <ellipse cx="700" cy="340" rx="300" ry="140" fill="url(#glowGold)"/>
+    <ellipse cx="140" cy="420" rx="360" ry="200" fill="url(#glowGreen)"/>
+    <ellipse cx="780" cy="40" rx="380" ry="220" fill="url(#glowBlue)"/>
+    <ellipse cx="620" cy="440" rx="300" ry="140" fill="url(#glowGold)"/>
   </g>
 
-  <!-- 星点 + 月亮（夜班标志） -->
+  <!-- 星点 -->
   <g fill="#dfe8f0">
-    <circle cx="44" cy="40" r="1.6" opacity="0.35"/>
-    <circle cx="120" cy="64" r="1.1" opacity="0.25"/>
-    <circle cx="300" cy="32" r="1.3" opacity="0.3"/>
-    <circle cx="500" cy="24" r="1.2" opacity="0.3"/>
-    <circle cx="700" cy="42" r="1.4" opacity="0.22"/>
+    <circle cx="44" cy="38" r="1.6" opacity="0.35"/>
+    <circle cx="126" cy="60" r="1.1" opacity="0.25"/>
+    <circle cx="300" cy="30" r="1.3" opacity="0.3"/>
+    <circle cx="470" cy="22" r="1.2" opacity="0.3"/>
+    <circle cx="620" cy="46" r="1.4" opacity="0.22"/>
   </g>
-  <path d="M948 302a26 26 0 1 0 18 44 30 30 0 0 1-18-44z" fill="#e8c15a" opacity="0.55"/>
+  <path d="M798 96a24 24 0 1 0 17 41 28 28 0 0 1-17-41z" fill="#e8c15a" opacity="0.5"/>
 
   <!-- 称号 -->
-  <text class="mono" x="52" y="92" font-size="16" letter-spacing="3.5" fill="#3fd07a">BOBBYCHINA</text>
-  <rect x="52" y="106" width="184" height="2" fill="url(#hairline)"/>
+  <text class="mono" x="44" y="76" font-size="15" letter-spacing="3.5" fill="#3fd07a">BOBBYCHINA</text>
+  <rect x="44" y="90" width="176" height="2" fill="url(#hairline)"/>
 
   <!-- 主标题 -->
-  <text class="name ink" x="48" y="196" font-size="80">Bobbychina</text>
-  <text class="sans tag" x="52" y="240" font-size="21">独立开发者 · 10 年 Minecraft 玩家 · UTC+8 夜班</text>
-  <text class="mono tag" x="52" y="270" font-size="15" opacity="0.8">indie dev · minecraft since PE 0.15 · UTC+8 night shift</text>
-
-  <!-- 底部底线 -->
-  <text class="mono" x="52" y="330" font-size="14.5" fill="#93a3b5">
+  <text class="name ink" x="38" y="196" font-size="96">Bobbychina</text>
+  <text class="sans tag" x="44" y="240" font-size="23">独立开发者 · 10 年 Minecraft 玩家 · UTC+8 夜班</text>
+  <text class="mono tag" x="44" y="270" font-size="15.5" opacity="0.8">indie dev · minecraft since PE 0.15 · UTC+8 night shift</text>
+  <text class="mono" x="44" y="302" font-size="15" fill="#93a3b5">
     <tspan fill="#e8c15a">&gt;</tspan>
     <tspan> 所有特效都可以一键关掉：性能排在观感前面</tspan>
   </text>
 
-  <!-- 玻璃终端卡（右侧留出 60px 安全间距：本机无 Georgia 时回退字体更宽，不能贴边） -->
+  <!-- 作息玻璃卡（右侧空白处补信息，顺便把版心撑满） -->
   <g>
-    <rect x="580" y="72" width="396" height="232" rx="16" fill="#10151d" fill-opacity="0.72" stroke="#2a3543" stroke-width="1"/>
-    <rect x="580" y="72" width="396" height="232" rx="16" fill="none" stroke="#5cc8ff" stroke-opacity="0.14" stroke-width="1"/>
-    <path d="M580 110h396" stroke="#1f2733" stroke-width="1"/>
-    <circle cx="604" cy="91" r="5" fill="#e0573a" opacity="0.8"/>
-    <circle cx="622" cy="91" r="5" fill="#e8c15a" opacity="0.8"/>
-    <circle cx="640" cy="91" r="5" fill="#3fd07a" opacity="0.8"/>
-    <text class="mono" x="960" y="97" font-size="13" fill="#7b8a9c" text-anchor="end">zsh — 240Hz</text>
+    <rect x="628" y="150" width="212" height="106" rx="14" fill="#10151d" fill-opacity="0.72" stroke="#2a3543"/>
+    <rect x="628" y="150" width="212" height="106" rx="14" fill="none" stroke="#3fd07a" stroke-opacity="0.16"/>
+    <text class="mono ink"  x="650" y="192" font-size="26">UTC+8</text>
+    <text class="mono gold" x="650" y="218" font-size="15">01:00 – 04:00</text>
+    <text class="sans tag"  x="650" y="240" font-size="13">主时段 · most active</text>
+  </g>
 
-    <text class="mono" x="602" y="146" font-size="16.5">
+  <!-- 玻璃终端卡 -->
+  <g>
+    <rect x="44" y="330" width="792" height="114" rx="16" fill="#10151d" fill-opacity="0.72" stroke="#2a3543"/>
+    <rect x="44" y="330" width="792" height="114" rx="16" fill="none" stroke="#5cc8ff" stroke-opacity="0.14"/>
+    <path d="M44 356h792" stroke="#1f2733"/>
+    <circle cx="68" cy="343" r="4.5" fill="#e0573a" opacity="0.8"/>
+    <circle cx="84" cy="343" r="4.5" fill="#e8c15a" opacity="0.8"/>
+    <circle cx="100" cy="343" r="4.5" fill="#3fd07a" opacity="0.8"/>
+    <text class="mono" x="812" y="348" font-size="12.5" fill="#7b8a9c" text-anchor="end">zsh — 240Hz</text>
+
+    <text class="mono" x="68" y="384" font-size="16">
       <tspan class="green">bobby@legion</tspan><tspan class="tag">:~$ </tspan><tspan class="ink">whoami</tspan>
+      <tspan class="tag">  →  </tspan><tspan fill="#b9c6d4">student · indie dev · night owl</tspan>
     </text>
-    <text class="mono" x="602" y="172" font-size="16.5" fill="#dfe8f0">student · indie dev · night owl</text>
-
-    <text class="mono" x="602" y="206" font-size="16.5">
+    <text class="mono" x="68" y="410" font-size="16">
       <tspan class="green">bobby@legion</tspan><tspan class="tag">:~$ </tspan><tspan class="ink">uptime</tspan>
+      <tspan class="tag">  →  </tspan><tspan fill="#b9c6d4">up since </tspan><tspan class="gold">01:47</tspan><tspan fill="#b9c6d4">, 1 user, load 0.42</tspan>
     </text>
-    <text class="mono" x="602" y="232" font-size="16.5" fill="#dfe8f0">up since <tspan class="gold">01:47</tspan>, 1 user, load 0.42</text>
-
-    <text class="mono" x="602" y="268" font-size="16.5">
+    <text class="mono" x="68" y="436" font-size="16">
       <tspan class="green">bobby@legion</tspan><tspan class="tag">:~$ </tspan><tspan class="blue">git push</tspan>
     </text>
-    <rect class="cursor" x="832" y="252" width="10" height="19"/>
+    <rect class="cursor" x="292" y="421" width="10" height="18"/>
   </g>
 </svg>
