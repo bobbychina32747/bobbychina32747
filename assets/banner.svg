@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="Bobbychina — 独立开发者 / 10 年 Minecraft 玩家 / UTC+8 夜班">
+  <defs>
+    <!-- 极光光晕：用径向渐变代替高斯模糊滤镜，省 GPU（本人性能优先的底线） -->
+    <radialGradient id="glowBlue" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#5cc8ff" stop-opacity="0.30"/>
+      <stop offset="55%" stop-color="#5cc8ff" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#5cc8ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowGreen" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3fd07a" stop-opacity="0.22"/>
+      <stop offset="55%" stop-color="#3fd07a" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#3fd07a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowGold" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#e8c15a" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#e8c15a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hairline" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3fd07a" stop-opacity="0.9"/>
+      <stop offset="45%" stop-color="#5cc8ff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#2a3543" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#dfe8f0" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+    <style>
+      .name    { font-family: Georgia, "Times New Roman", "Songti SC", serif; font-weight: 700; letter-spacing: -1.5px; }
+      .mono    { font-family: Consolas, "Cascadia Mono", "Courier New", monospace; }
+      .sans    { font-family: "Segoe UI", -apple-system, "PingFang SC", "Microsoft YaHei", system-ui, sans-serif; }
+      .tag     { fill: #7b8a9c; }
+      .ink     { fill: #dfe8f0; }
+      .green   { fill: #3fd07a; }
+      .blue    { fill: #5cc8ff; }
+      .gold    { fill: #e8c15a; }
+      .cursor  { fill: #3fd07a; }
+      @media (prefers-reduced-motion: no-preference) {
+        .cursor { animation: blink 1.1s steps(1, end) infinite; }
+        .drift  { animation: drift 14s ease-in-out infinite alternate; }
+      }
+      @keyframes blink { 0%, 49% { opacity: 1 } 50%, 100% { opacity: 0 } }
+      @keyframes drift { from { opacity: .78 } to { opacity: 1 } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="340" fill="#0a0e14"/>
+  <rect width="1200" height="340" fill="url(#grid)"/>
+
+  <!-- 光晕层 -->
+  <g class="drift">
+    <ellipse cx="250" cy="300" rx="420" ry="230" fill="url(#glowGreen)"/>
+    <ellipse cx="1010" cy="40" rx="430" ry="250" fill="url(#glowBlue)"/>
+    <ellipse cx="760" cy="330" rx="330" ry="150" fill="url(#glowGold)"/>
+  </g>
+
+  <!-- 星点 + 月亮（夜班标志） -->
+  <g fill="#dfe8f0">
+    <circle cx="58" cy="46" r="1.6" opacity="0.35"/>
+    <circle cx="132" cy="88" r="1.1" opacity="0.25"/>
+    <circle cx="206" cy="38" r="1.3" opacity="0.3"/>
+    <circle cx="1195" cy="300" r="1.4" opacity="0.22"/>
+    <circle cx="640" cy="26" r="1.2" opacity="0.3"/>
+  </g>
+  <path d="M1140 268a26 26 0 1 0 18 44 30 30 0 0 1-18-44z" fill="#e8c15a" opacity="0.55"/>
+
+  <!-- 称号 -->
+  <text class="mono" x="72" y="96" font-size="17" letter-spacing="3" fill="#3fd07a">BOBBYCHINA</text>
+  <rect x="72" y="112" width="196" height="2" fill="url(#hairline)"/>
+
+  <!-- 主标题 -->
+  <text class="name ink" x="68" y="192" font-size="76">Bobbychina</text>
+  <text class="sans tag" x="72" y="232" font-size="21">独立开发者 · 10 年 Minecraft 玩家 · UTC+8 夜班</text>
+  <text class="mono tag" x="72" y="264" font-size="15" opacity="0.75">indie dev · minecraft since PE 0.15 · games &amp; self-hosted AI toolchain</text>
+
+  <!-- 底部底线 -->
+  <text class="mono" x="72" y="308" font-size="14" fill="#93a3b5">
+    <tspan fill="#e8c15a">&gt;</tspan>
+    <tspan> 所有特效都可以一键关掉：性能排在观感前面</tspan>
+  </text>
+
+  <!-- 玻璃终端卡 -->
+  <g>
+    <rect x="676" y="70" width="452" height="200" rx="16" fill="#10151d" fill-opacity="0.72" stroke="#2a3543" stroke-width="1"/>
+    <rect x="676" y="70" width="452" height="200" rx="16" fill="none" stroke="#5cc8ff" stroke-opacity="0.14" stroke-width="1"/>
+    <path d="M676 106h452" stroke="#1f2733" stroke-width="1"/>
+    <circle cx="700" cy="88" r="5" fill="#e0573a" opacity="0.8"/>
+    <circle cx="718" cy="88" r="5" fill="#e8c15a" opacity="0.8"/>
+    <circle cx="736" cy="88" r="5" fill="#3fd07a" opacity="0.8"/>
+    <text class="mono" x="1030" y="94" font-size="13" fill="#7b8a9c" text-anchor="end">zsh — 240Hz</text>
+
+    <text class="mono" x="702" y="140" font-size="16.5">
+      <tspan class="green">bobby@legion</tspan><tspan class="tag">:~$ </tspan><tspan class="ink">whoami</tspan>
+    </text>
+    <text class="mono" x="702" y="164" font-size="16.5" fill="#dfe8f0">student · indie dev · night owl</text>
+
+    <text class="mono" x="702" y="196" font-size="16.5">
+      <tspan class="green">bobby@legion</tspan><tspan class="tag">:~$ </tspan><tspan class="ink">uptime</tspan>
+    </text>
+    <text class="mono" x="702" y="220" font-size="16.5" fill="#dfe8f0">up since <tspan class="gold">01:47</tspan>, 1 user, load 0.42</text>
+
+    <text class="mono" x="702" y="252" font-size="16.5">
+      <tspan class="green">bobby@legion</tspan><tspan class="tag">:~$ </tspan><tspan class="blue">git push</tspan>
+    </text>
+    <rect class="cursor" x="934" y="236" width="10" height="19"/>
+  </g>
+</svg>

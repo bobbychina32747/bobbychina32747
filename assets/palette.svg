@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 190" width="1200" height="190" role="img" aria-label="配色：深蓝黑底 + 冷色担任信息 + 暖色担任情绪">
+  <defs>
+    <style>
+      .mono { font-family: Consolas, "Cascadia Mono", "Courier New", monospace; }
+      .sans { font-family: "Segoe UI", -apple-system, "PingFang SC", "Microsoft YaHei", system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="190" rx="14" fill="#0a0e14"/>
+  <rect x="0.5" y="0.5" width="1199" height="189" rx="14" fill="none" stroke="#1f2733"/>
+
+  <text class="mono" x="34" y="46" font-size="15" letter-spacing="2.5" fill="#3fd07a">PALETTE</text>
+  <text class="sans" x="140" y="46" font-size="15" fill="#7b8a9c">我自己代码里抠出来的，跨 4+ 个项目一致</text>
+  <path d="M34 62h1132" stroke="#1f2733"/>
+
+  <!-- 底色 3 格 + 冷色 2 格 + 暖色 3 格 -->
+  <g>
+    <rect x="34"  y="82" width="130" height="58" rx="10" fill="#0a0e14" stroke="#2a3543"/>
+    <rect x="176" y="82" width="130" height="58" rx="10" fill="#10151d" stroke="#2a3543"/>
+    <rect x="318" y="82" width="130" height="58" rx="10" fill="#1f2733" stroke="#2a3543"/>
+
+    <rect x="472" y="82" width="130" height="58" rx="10" fill="#5cc8ff"/>
+    <rect x="614" y="82" width="130" height="58" rx="10" fill="#4d6bfe"/>
+
+    <rect x="768" y="82" width="130" height="58" rx="10" fill="#3fd07a"/>
+    <rect x="910" y="82" width="130" height="58" rx="10" fill="#e8c15a"/>
+    <rect x="1036" y="82" width="130" height="58" rx="10" fill="#e0573a"/>
+  </g>
+
+  <g class="mono" font-size="12.5" fill="#dfe8f0">
+    <text x="34"  y="162">#0a0e14</text>
+    <text x="176" y="162">#10151d</text>
+    <text x="318" y="162">#1f2733</text>
+    <text x="472" y="162">#5cc8ff</text>
+    <text x="614" y="162">#4d6bfe</text>
+    <text x="768" y="162">#3fd07a</text>
+    <text x="910" y="162">#e8c15a</text>
+    <text x="1036" y="162">#e0573a</text>
+  </g>
+  <g class="sans" font-size="12.5" fill="#7b8a9c">
+    <text x="34"  y="180">底</text>
+    <text x="176" y="180">卡片</text>
+    <text x="318" y="180">描边</text>
+    <text x="472" y="180">信息 / 链接</text>
+    <text x="614" y="180">强调 / 主操作</text>
+    <text x="768" y="180">状态 / 通过</text>
+    <text x="910" y="180">情绪 / 暖场</text>
+    <text x="1036" y="180">警告 / 危险</text>
+  </g>
+</svg>

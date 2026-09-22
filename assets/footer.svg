@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 96" width="1200" height="96" role="img" aria-label="页脚：没有 CI 徽章，因为徽章也是自己画的">
+  <defs>
+    <style>
+      .mono { font-family: Consolas, "Cascadia Mono", "Courier New", monospace; }
+      @media (prefers-reduced-motion: no-preference) {
+        .cursor { animation: blink 1.1s steps(1, end) infinite; }
+      }
+      @keyframes blink { 0%, 49% { opacity: 1 } 50%, 100% { opacity: 0 } }
+    </style>
+  </defs>
+  <rect width="1200" height="96" rx="14" fill="#0d1219"/>
+  <rect x="0.5" y="0.5" width="1199" height="95" rx="14" fill="none" stroke="#1f2733"/>
+  <text class="mono" x="32" y="40" font-size="15" fill="#dfe8f0">
+    <tspan fill="#3fd07a">bobby@legion</tspan><tspan fill="#7b8a9c">:~$ </tspan><tspan fill="#5cc8ff">cat README.md</tspan><tspan fill="#7b8a9c"> --tail</tspan>
+  </text>
+  <text class="mono" x="32" y="68" font-size="14.5" fill="#7b8a9c">
+    <tspan>这里没有 CI 徽章，因为徽章也是我自己画的（第三方脚本一个都不加载）</tspan>
+  </text>
+  <rect class="cursor" x="700" y="56" width="9" height="16" fill="#3fd07a"/>
+</svg>
